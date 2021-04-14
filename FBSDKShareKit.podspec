@@ -47,6 +47,6 @@ Pod::Spec.new do |s|
                        'FBSDKShareKit/FBSDKShareKit/Swift/Exports.swift'
     ss.public_header_files = 'FBSDKShareKit/FBSDKShareKit/*.{h}',
                              'FBSDKShareKit/FBSDKShareKit/Internal/FBSDKVideoUploader.h'
-    ss.source_files = 'FBSDKShareKit/FBSDKShareKit/**/*.{h,m,swift}'
+    ss.source_files = 'FBSDKShareKit/FBSDKShareKit/**/*.{h,m}'
   end
 end
